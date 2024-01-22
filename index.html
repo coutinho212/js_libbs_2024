@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        /*
+        Isto é um comentário...
+        Projeto para as aulas da turma
+        */
+       //Também é um comentário 
+        document.write("LIBBS 2024" + "<br>")
+
+        var nome;
+        var endereço = "Rua da minha casa";
+        var telefone = "11 917344736";
+        var studing;
+        const anoNascimento = 2006;
+
+        //mostrar msg e pegar uma informção
+       nome = prompt("qual o seu nome?")
+
+       //mostrar msg e pegar uma informação
+       //nome = prompt("Qual o seu nome?");
+
+       studing= confirm("está estudando no momento?")
+       console.log(studing);
+
+       if(studing){
+        alert("parabéns!!");
+       } else{
+        alert("vamos estudar...");
+       }
+
+       var idade = prompt ("Qual a sua idade?")
+       console.log(idade);
+       if(idade > 50){
+        alert("nada de neto??!!")
+       }else if (idade > 25){
+        alert("Já não precisa morar com o pai")
+       }else if (idade >= 18){
+        alert("Parabéns!! Hora de tirar a carta!!!")
+       }else if (idade < 18){
+        alert("ainda brinca")
+       }
+
+       console.log(typeof(anoNascimetno));
+       console.log(typeof(telefone));
+
+      
+       
+
+        document.write(nome + "<br>");
+        document.write(endereço + "<br>");
+        document.write(telefone + "<br>");
+        document.write(anoNascimento + "<br>");
+
+        conse.log("Estou aqui...")
+
+        alert("Você chegou aqui...")
+
+    </script>
 </head>
 <body>
+    <p>Escrito no HTML</p>
+
     
+
 </body>
 </html>
